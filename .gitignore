@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# next.js files
+.next/
+out/
+
+# production
+build/
+
+# misc
+*.log
+*.lock
+*.swp
+*.env
+.DS_Store
+.vscode/
