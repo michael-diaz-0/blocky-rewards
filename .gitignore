@@ -1,17 +1,44 @@
-# dependencies
+node_modules
+# Dependencies
 node_modules/
 
-# next.js files
+# Next.js build output
 .next/
 out/
 
-# production
+# Production
 build/
 
-# misc
-*.log
-*.lock
-*.swp
-*.env
+# System files
 .DS_Store
+Thumbs.db
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Editor and IDE files
 .vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Cache and temp files
+.cache/
+temp/
+tmp/
+
+# Yarn specific
+yarn-error.log
+.pnp
+.pnp.meta/
+
+# Optional: if using a package manager lock file, you might want to ignore it in some cases
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
